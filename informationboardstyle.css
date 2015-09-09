@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Karla);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+	background-color: #16A6B6;
+	width: 900px;
+}
+
+#day1 {
+	color: #16A6B6;
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	padding: 40px;
+	margin-left: 10px;
+	line-height: 1.5;
+}
+
+#day2 {
+	color: #16A6B6;
+	font-family: 'Karla', sans-serif;
+	font-size: 80px;
+	margin-left: 40px;
+}
+
+#timearea {
+	color: #34495E;
+	font-family: 'Karla', sans-serif;
+	font-size: 120px;
+	line-height: 1;
+	padding: 10px;
+	margin-left: 135px;
+}
+
+div.date {
+	width: 600px;
+	height: 240px;
+	background-color: #ECF0F1;
+	margin-left: 80px;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: auto;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 1px 6px rgba(0,0,0,0.22);
+
+}
+
+div.day {
+	width: 300px;
+	height: 110px;
+	background-color: #ECF0F1;
+	float: left;
+}
+
+div.day_y {
+	width: 300px;
+	height: 110px;
+	background-color: #ECF0F1;
+	float: left;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="informationboardstyle.css">
+		<title>information board v2 </title>
+		<script type="text/javascript">
+		function showClock()
+		{
+			var nowTime = new Date();
+			var hour = nowTime.getHours();
+			var min = nowTime.getMinutes();
+			var sec = nowTime.getSeconds();
+			if(hour < 10) { hour = "0" + hour; }
+			if(min < 10) { min = "0" + min; }
+			if(sec < 10) { sec = "0" + sec; }
+			var msg = hour + ":" + min;
+			document.getElementById("timearea").innerHTML = msg;
+		}
+		setInterval('showClock()',1000);
+		</script>
+	</head>
+	<body>
+		<div class="date">
+			<div class="day">
+				<p1 id="day1">
+					<script type="text/javascript" src="ibjv2js01.js"></script>
+				</p1>
+			</div>
+			<div class="day_y">
+				<p1 id="day2">
+					<script type="text/javascript" src="ibjv2js02.js"></script>
+				</p1>
+			</div>
+			<div class="time">
+				<p1 id="timearea"></p1>
+			</div>
+		</div>
+	</body>
+</html>
