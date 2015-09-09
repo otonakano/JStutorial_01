@@ -1,3 +1,4 @@
+//月日と曜日を取得して指定のidに出力
 
 var nObj = new Date();
 
